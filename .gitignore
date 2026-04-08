@@ -1,29 +1,15 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
 venv/
-env/
-.venv/
 
-# Modelos grandes (NO subir a GitHub)
+# Modelos grandes
 *.pkl
 *.bin
 
-# Jupyter Notebooks
+# Solo ignora los checkpoints, NO los notebooks
 .ipynb_checkpoints/
-*.ipynb
 
 # IDE
 .vscode/
 .idea/
-
-# Archivos del sistema
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
-
-# Environment variables
-.env
